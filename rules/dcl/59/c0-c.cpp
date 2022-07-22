@@ -1,9 +1,10 @@
 // DCL59-CPP: Compliant Solution
 // b.cpp
-#include "a.h"
+//#include "a.h"
 #include <iostream>
  
 void g() {
+  int v;
   std::cout << "g(): " << v << std::endl;
   v = 100;
 }

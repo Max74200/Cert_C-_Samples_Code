@@ -1,7 +1,7 @@
 // CON56-CPP: Noncompliant Code Example
 #include <mutex>
 #include <thread>
- 
+ /*
 std::mutex m;
  
 void do_thread_safe_work();
@@ -36,3 +36,4 @@ int main() {
  
   t.join();
 }
+*/

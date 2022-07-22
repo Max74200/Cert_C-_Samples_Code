@@ -1,5 +1,6 @@
 // EXP57-CPP: Compliant Solution
 // File2.cpp
+/*
 #include "File2.h"
 #include "File1.h"
 #include <iostream>
@@ -30,3 +31,4 @@ void g(B *d) {
 B *get_d() {
   return new D;
 }
+*/

@@ -1,7 +1,7 @@
 // CTR56-CPP: Compliant Solution (std::vector)
 #include <iostream>
 #include <vector>
-
+/*
 // ... definitions for S, T, globI, globD ...
 template <typename Iter>
 void f(Iter i, Iter e) {
@@ -11,9 +11,10 @@ void f(Iter i, Iter e) {
 }
 
 int main() {
+
   std::vector<S *> test{new T, new T, new T, new T, new T};
   f(test.cbegin(), test.cend());
   for (auto v : test) {
     delete v;
   }
-}
+}*/

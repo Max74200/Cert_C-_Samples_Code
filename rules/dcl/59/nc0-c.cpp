@@ -1,9 +1,10 @@
 // DCL59-CPP: Noncompliant Code Example
 // b.cpp
-#include "a.h"
+//#include "a.h"
 #include <iostream>
  
 void g() {
+  int v;
   std::cout << "g(): " << v << std::endl;
   v = 100;
 }

@@ -2,7 +2,7 @@
 // library.cpp
 int func() noexcept(true) {
   // ...
-  if (/* ... */) {
+  if (true) {
     return 42;
   }
   // ...

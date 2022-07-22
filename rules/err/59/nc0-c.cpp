@@ -1,7 +1,7 @@
 // ERR59-CPP: Noncompliant Code Example
 // application.cpp
-#include "library.h"
- 
+//#include "library.h"
+ /*
 void f() {
   try {
     func();
@@ -9,3 +9,4 @@ void f() {
     // Handle error
   }
 }
+*/

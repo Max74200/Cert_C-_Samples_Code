@@ -1,4 +1,5 @@
 // DCL54-CPP: Noncompliant Code Example
+/*
 #include <Windows.h>
 #include <new>
  
@@ -11,3 +12,4 @@ void *operator new(std::size_t size) noexcept(false) {
 }
  
 // No corresponding global delete operator defined.
+*/

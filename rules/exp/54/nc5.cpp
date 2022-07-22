@@ -12,7 +12,7 @@ void f() {
  
   // ...   
  
-  goto bad_idea;   
+  //goto bad_idea;   
  
   // ... 
  

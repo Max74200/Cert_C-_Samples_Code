@@ -1,4 +1,5 @@
 // EXP60-CPP: Compliant Solution
+/*
 struct B {
   int i, j;
 };
@@ -21,3 +22,4 @@ void foo(D *d) {
 
   func(&temp);
 }
+*/

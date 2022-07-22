@@ -1,4 +1,5 @@
 // MEM57-CPP: Compliant Solution (aligned_alloc)
+/*
 #include <cstdlib>
 #include <new>
  
@@ -19,3 +20,4 @@ Vector *f() {
   Vector *pv = new Vector;
   return pv;
 }
+*/

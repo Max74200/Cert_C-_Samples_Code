@@ -20,7 +20,7 @@ void f() {
   int table1[100];
   int *table2 = new int[100];
   insert_in_table(table1, 0, 0); // Calls #2
-  insert_in_table(table2, 0, 0); // Error, no matching function call
+  //insert_in_table(table2, 0, 0); // Error, no matching function call
   insert_in_table(table1, 100, 0, 0); // Calls #1
   insert_in_table(table2, 100, 0, 0); // Calls #1
   delete [] table2;

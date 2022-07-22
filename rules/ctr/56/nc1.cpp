@@ -1,6 +1,6 @@
 // CTR56-CPP: Noncompliant Code Example (Array Subscripting)
 #include <iostream>
- 
+ /*
 // ... definitions for S, T, globI, globD ...
 
 void f(const S *someSes, std::size_t count) { 
@@ -13,3 +13,4 @@ int main() {
   T test[5];
   f(test, 5);
 }
+*/

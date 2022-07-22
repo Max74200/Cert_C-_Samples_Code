@@ -1,6 +1,6 @@
 // CTR56-CPP: Compliant Solution (Array)
 #include <iostream>
-
+/*
 // ... definitions for S, T, globI, globD ...
 
 void f(const S * const *someSes, std::size_t count) { 
@@ -16,3 +16,4 @@ int main() {
     delete v;
   }
 }
+*/

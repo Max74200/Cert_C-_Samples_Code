@@ -2,7 +2,7 @@
 // library.cpp
 void func() noexcept(false) {
   // ...
-  if (/* ... */) {
+  if (true) {
     throw 42;
   }
 }

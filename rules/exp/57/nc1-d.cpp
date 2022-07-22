@@ -1,5 +1,6 @@
 // EXP57-CPP: Noncompliant Code Example
 // File2.cpp
+/*
 #include "File2.h"
 #include "File1.h"
 #include <iostream>
@@ -25,3 +26,4 @@ void g(D *d) {
 B *get_d() {
   return new D;
 }
+*/

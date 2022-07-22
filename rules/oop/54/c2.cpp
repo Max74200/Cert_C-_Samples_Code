@@ -1,4 +1,5 @@
 // OOP54-CPP: Compliant Solution (Move and Swap)
+/*
 T(T &&rhs) { *this = std::move(rhs); }
  
 // ... everything except operator= ..
@@ -9,3 +10,4 @@ T& operator=(T &&rhs) noexcept {
   swap(s1, rhs.s1);
   return *this;
 }
+*/

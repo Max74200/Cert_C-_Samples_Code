@@ -11,6 +11,6 @@ extern void store_in_some_buffer(void *buffer, size_t offset, int val);
 extern void *buffer;
  
 void f() {
-  size_t off = offsetof(S, i);
-  store_in_some_buffer(buffer, off, 42);
+  //size_t off = offsetof(S, i);
+  //store_in_some_buffer(buffer, off, 42);
 }

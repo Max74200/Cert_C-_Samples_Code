@@ -1,7 +1,7 @@
 // DCL54-CPP: Compliant Solution
-#include <Windows.h>
+//#include <Windows.h>
 #include <new>
-
+/*
 class HeapAllocator {
   static HANDLE h;
   static bool init;
@@ -36,3 +36,4 @@ void *operator new(std::size_t size) noexcept(false) {
 void operator delete(void *ptr) noexcept {
   return HeapAllocator::dealloc(ptr);
 }
+*/

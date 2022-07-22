@@ -1,7 +1,7 @@
 // CON56-CPP: Compliant Solution
 #include <mutex>
 #include <thread>
- 
+ /*
 std::mutex m;
  
 void do_thread_safe_work();
@@ -16,7 +16,7 @@ void do_work() {
     // ...
  
   // Release the mutex.
-  catch (...) {
+  catch () {
     m.unlock();
     throw;
   }
@@ -34,3 +34,4 @@ int main() {
  
   t.join();
 }
+*/

@@ -1,4 +1,5 @@
 // DCL57-CPP: Compliant Solution
+/*
 class SomeClass {
   Bad bad_member;
 public:
@@ -15,3 +16,4 @@ public:
     return;
   }
 };
+*/

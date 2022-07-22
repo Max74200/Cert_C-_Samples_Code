@@ -1,5 +1,6 @@
 // DCL56-CPP: Compliant Solution
 // file1.cpp
+/*
 #include "file.h"
 #include <iostream>
 
@@ -18,3 +19,4 @@ int main() {
 
 Car get_default_car() { return Car(6); }
 Car c = get_default_car();
+*/
